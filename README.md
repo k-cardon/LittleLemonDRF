@@ -8,7 +8,7 @@ This is a model backend for a restaurant built with Django Rest Framework.
 
 Tech used: Django, Django Rest Framework (DRF), Insomnia
 
-This restaurant API allows managers to add and categorize menu items (and add users to "manager" and "delivery" permissions), allows customers to add items to a shopping cart and submit orders, and allows delivery crew to view orders assigned to them by managers. I used DRF generic class based views as often as possible to simplify permissions and to reduce the amount of code; for the more complicated views, such as the shopping cart, I wrote custom function based views. I tested the API using Insomnia.
+This restaurant API allows managers to add and categorize menu items (and add users to "manager" and "delivery" permissions), allows customers to add items to a shopping cart and submit orders, and allows delivery crew to view orders assigned to them by managers. I used DRF generic class-based views as often as possible to simplify permissions and to reduce the amount of code. For the more complicated views, such as the shopping cart, I wrote custom function-based views. I tested the API using Insomnia.
 
 ## Lessons Learned
 
